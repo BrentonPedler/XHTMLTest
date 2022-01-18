@@ -1,0 +1,282 @@
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAM Direct HTML Email</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+            background-color: #fff;
+            font-family: serif;
+        }
+
+        table {
+            border-spacing: 0;      
+        }
+
+        td {
+            padding: 0;
+        }
+        
+        img {
+            border: 0;
+            border-radius: 50%;
+        }
+
+        .wrapper {
+            width: 100%;
+            table-layout: fixed;
+            background-color: #fff;
+            padding: 50px 0px;
+        }
+
+        .main {
+			margin: 0 auto;
+			width: 100%;
+			max-width: 600px;
+			background-color: #fff;
+			border-spacing: 0;
+		}
+
+        .two-columns {
+            font-size: 0;   
+        }
+
+        .two-columns .column {
+            width: 100%;
+            max-width: 300px;
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        .two-columns .padding {
+            padding: 20px;
+        }
+
+        .two-columns .content {
+            text-align: left;
+            line-height: 25px;
+        }
+
+
+        @media screen and (max-width: 600px) {
+            .two-columns .padding {
+                padding: 0!important;
+            }
+            .two-columns .content {
+                width: 100%!important;
+                max-width: 300px!important;
+                padding: 50px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <center class="wrapper" align="center">
+
+        <table class="main">
+
+            <!-- LANGUAGE -->
+
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="text-align: right; padding: 0; line-height: 0px; font-size: 0.8rem; ">
+                                <p class="language" style="cursor: pointer;">Language Selection:<span style="text-decoration: underline;"></span></p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- HEADER -->
+
+            <tr>
+                <td style="text-align: left; padding: 0px 20px; background-color: rgb(136, 0, 43); width: 100%; color: #fff;">
+                    <table width="100%">
+                        <tr>
+                            <td>
+                                <h1 style="font-size: 3rem; font-weight: 200;">jam</h1>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- TITLE -->
+
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td style="font-size: 1.5rem; text-align: center;">
+                                <h2 style="font-weight: 100;">We're excited to see you.</h2>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+            <!-- DESCRIPTION -->
+
+            <tr>
+                <td>
+                    <table width="90%" style="margin: 0 auto;">
+                        <tr>
+                            <td style="text-align: center;">
+                                <p style="line-height: 25px;">John, with the event fast approaching, we wanted to give you a breakdown of what we'll be doing at our meet & greet with Nic on Friday morning.</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+            <!-- CONTENT ONE -->
+
+            <tr>
+                <td>
+                    <table width="70%" style="margin: 0 auto;">
+                        <tr>
+                            <td>
+                                <h3 style="font-size: 1.5rem;">8:30 AM - 9:30 AM</h3>
+                                <ul style="line-height: 25px; padding-bottom: 25px;">
+                                    <li>Meet in VIP room of Maurice-Richard Arena, located near the North entrance</li>
+                                    <li>Enjoy a light breakfast with us</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- BORDER -->
+
+            <tr>
+                <td> 
+                    <table width="70%" style="margin: 0 auto;">
+                        <tr>
+                            <td>
+                                <table width="30%" style="border-top: 5px rgb(136, 0, 43) solid;"></table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+
+            <!-- TWO COLUMN CONTENT -->
+
+            <tr>
+                <td>
+                    <table width="100%">
+                        <tr>
+                            <td class="two-columns">
+                                
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td>
+                                                        <h3 style="font-size: 1.5rem;">9:30 AM - 11:45 AM</h3>
+                                                        <ul style="font-size: 1rem;">
+                                                            <li>Watch Nic train on ice</li>
+                                                            <li>Tour his training facilities</li>
+                                                            <li>Q&A session</li>
+                                                            <li>Have your photo taken with Nic</li>
+                                                        </ul> 
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <table class="column">
+                                    <tr>
+                                        <td class="padding">
+                                            <table class="content">
+                                                <tr>
+                                                    <td> 
+                                                        <img src="https://www.placecage.com/200/200" alt="Nicholas Cage">
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- BORDER -->
+
+            <tr>
+                <td> 
+                    <table width="70%" style="margin: 0 auto;">
+                        <tr>
+                            <td>
+                                <table width="30%" style="border-top: 5px rgb(136, 0, 43) solid;"></table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- CONTENT THREE -->
+
+            <tr>
+                <td>
+                    <table width="70%" style="margin: 0 auto;">
+                        <tr>
+                            <td>
+                                <h3 style="font-size: 1.5rem;">11:45 AM</h3>
+                                <ul style="line-height: 25px;">
+                                    <li>Pick lunch to go</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </center>
+
+    <script>
+
+        const selection = document.querySelector('span');
+        const EN = 'ENGLISH';
+        const FR = 'FRANCAIS';
+
+        let language = selection.textContent = EN;
+
+        function setLanguage() {
+            selection.addEventListener('click', () => {
+                if (language === EN) {
+                    language = selection.textContent = FR;
+                } else {
+                    language = selection.textContent = EN;
+                }
+            })
+        }
+
+        setLanguage();
+
+        
+    </script>
+
+</body>
+
+</html>
